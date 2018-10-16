@@ -19,15 +19,37 @@
 - [TestNG](https://testng.org/doc/index.html)
 - MockMvc
 - FindBugs插件
+- [MyBatis Log Plugin](https://github.com/kookob/mybatis-log-plugin)
+
+### 项目管理
+- [GitLab](https://about.gitlab.com)
+- [Jenkins](https://jenkins.io/)
+- 公司Maven仓库
 
 ### 相关概念
 - 微服务
 - 通过注册中心实现服务发现与注册
 - RPC（Remote Procedure Call）远程过程调用协议
 - 无状态请求
+- 幂等性
 - 分布式事物
 - [Swagger](https://swagger.io/)（Api文档工具）
 - Markdown（文档格式）
+
+## 商城系统微服务结构
+- 用户系统（包含后台管理员）
+- 账户系统（用户资金管理）
+- 权限系统
+- 后台管理系统
+- 支付系统-支付宝
+- 支付系统-微信
+- 日志系统
+- 监控系统
+- 商品系统
+- 订单系统
+- 交易系统：处理订单与支付逻辑
+- 财务系统：对账
+- 物流系统：管理物流信息
 
 ## 参考资料
 
@@ -56,6 +78,18 @@
 - [IBM REST API 约定](https://www.ibm.com/support/knowledgecenter/zh/SS4GCC_6.1.1/com.ibm.urelease.doc/topics/rest_api_ref_conventions.html)
 - [Spring官网 Testing the Web Layer](https://spring.io/guides/gs/testing-web/)
 - [Spring官网 Spring Data REST Reference Documentation](https://docs.spring.io/spring-data/rest/docs/2.0.0.M1/reference/html/index.html)
+
+### Bug管理
+- [测试员不可不知的几款bug管理工具](https://www.jianshu.com/p/eecb66d33d39)
+- [如何使用 Issue 管理软件项目？](http://www.ruanyifeng.com/blog/2017/08/issue.html)
+
+### 分布式事物
+- [高性能异步分布式事务TCC框架-hmily](https://gitee.com/shuaiqiyu/hmily)
+- [myth](https://gitee.com/shuaiqiyu/myth)
+- [roses](https://gitee.com/stylefeng/roses) 如果担心服务异常带来的性能问题，可以通过 override 掉异常类的 fillInStackTrace() 方法为空方法，使其不拷贝栈信息
+
+### 并发框架
+- disruptor
 
 ### MockMvc
 - [MockMvc的使用](https://www.cnblogs.com/NeverCtrl-C/p/8996564.html)

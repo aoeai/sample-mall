@@ -15,9 +15,10 @@
 - [elasticsearch](https://www.elastic.co/cn/products/elasticsearch)
 - [ELK日志系统](https://blog.csdn.net/wyyl1/article/details/80517727)
 
-### 测试框架
+### 测试相关
 - [TestNG](https://testng.org/doc/index.html)
 - MockMvc
+- FindBugs插件
 
 ### 相关概念
 - 微服务
@@ -26,6 +27,7 @@
 - 无状态请求
 - 分布式事物
 - [Swagger](https://swagger.io/)（Api文档工具）
+- Markdown（文档格式）
 
 ## 参考资料
 
